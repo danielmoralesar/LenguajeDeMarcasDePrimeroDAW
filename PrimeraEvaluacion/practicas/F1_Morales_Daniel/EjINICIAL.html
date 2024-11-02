@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 02.11.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica de formularios</title>
+    </head>
+    <body>
+        <!-- Ej F1 Aprende Practicando: Ejercicio Inicial-->
+        <form action="mailto:daniel.morales53@educa.madrid.org" method="post">
+            Escriba su usuario:
+            <input type="text" name="usuario" size="10" maxlength="12">
+            Escriba su contraseña:
+            <input type="password" name="clave" size="10" maxlength="12">
+            <p>
+                Introduzca sus sugerencias o comentarios:
+                <textarea name="comentarios" rows="6" cols="40">
+                </textarea>
+            </p>
+            <p>
+                ¿Cómo contactó con nosotros?
+                <select name="Contacto">
+                    <option value="casualidad">Por casualidad</option>
+                    <option value="periodico">Por el periódico</option>
+                    <option value="buscadores">En los buscadores</option>
+                    <option value="comentario">Me lo comentaron</option>
+                </select>
+            </p>
+            <p>
+                <input type="checkbox" name="lista">
+                Si, deseo recibir información acerca de sus productos.
+            </p>
+            <p>
+                ¿Cuál es su sistema operativo preferido?
+                <br>
+                <input type="radio" name="SistemaOperativo" value="NT" checked>Windows
+                <input type="radio" name="SistemaOperativo" value="Mac">Mac OS
+                <input type="radio" name="SistemaOperativo" value="Unix">Unix
+            </p>
+            <p>
+                <input type="submit" value="Enviar datos">&nbsp;&nbsp;
+                <input type="reset" value="Borrar datos">
+            </p>
+        </form>
+    </body>
+</html>

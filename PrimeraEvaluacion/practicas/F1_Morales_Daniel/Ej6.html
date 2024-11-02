@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 02.11.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica de formularios - Ej 6</title>
+    </head>
+    <body>
+        <!-- Ej F1 Aprende Practicando: Ejercicio 6 -->
+        <h2>Información sobre el producto</h2>
+        <form method="post">
+            <fieldset>
+                <legend><b>Datos básicos</b></legend>
+                <p>
+                    Nombre<br>
+                    <input type="text" name="nombre">
+                </p>
+                <p>
+                    Descripción<br>
+                    <textarea name="comentarios" rows="6" cols="30"></textarea>
+                </p>
+                <p>Foto <input type="file" name="producto"></p>
+                <p><input type="checkbox" name="contador"> Añadir contador de visitas</p>
+            </fieldset>
+            <fieldset>
+                <legend><b>Datos económicos</b></legend>
+                <p>
+                    Precio <input type="number" name="precio"> €&nbsp;&nbsp;&nbsp;
+                    Impuestos
+                    <select name="impuestos" id="porcentaje">
+                        <option value="4%">4%</option>
+                        <option value="7%">7%</option>
+                        <option value="16%">16%</option>
+                        <option value="25%">25%</option>
+                    </select>
+                </p>
+                <p>
+                    Promoción<br>
+                    <input type="radio" name="promocion" value="ninguno">Ninguno<br>
+                    <input type="radio" name="promocion" value="transporte">Transporte gratuito<br>
+                    <input type="radio" name="promocion" value="descuento">Descuento 5%
+                </p>
+            </fieldset>
+        </form>
+    </body>
+</html>

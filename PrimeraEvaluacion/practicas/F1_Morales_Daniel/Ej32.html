@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 02.11.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica de formularios - Ej 3.2</title>
+    </head>
+    <body>
+        <!-- Ej F1 Aprende Practicando: Ejercicio 3.2 -->
+        <h1>Ficha de datos</h1>
+        <form action="mailto:maurrekoetxeavivar@educa.madrid.org" method="post">
+            <fieldset>
+                <legend>Toma de datos</legend>
+                <table>
+                    <tr>
+                        <td style="width:120px;">Nombre:</td>
+                        <td><input type="text" name="nombre"></td>
+                    </tr>
+                    <tr>
+                        <td>Primer Apellido:</td>
+                        <td><input type="text" name="primerapellido"></td>
+                    </tr>
+                    <tr>
+                        <td>Segundo Apellido:</td>
+                        <td><input type="text" name="segundoapellido"></td>
+                    </tr>
+                    <tr>
+                        <td>Domicilio:</td>
+                        <td><input type="text" name="domicilio" size="35"></td>
+                    </tr>
+                    <tr>
+                        <td>Sexo:</td>
+                        <td>
+                            Hombre:<input type="radio" name="sexo" value="Hombre">
+                            Mujer:<input type="radio" name="sexo" value="Mujer">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Series favoritas:</td>
+                        <td>
+                            Aguila Roja:<input type="checkbox" name="serie" value="aguilaroja">
+                            Isabel:<input type="checkbox" name="serie" value="isabel">
+                            Homeland:<input type="checkbox" name="serie" value="homeland">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Enviar datos"></td>
+                        <td><input type="reset" value="Borrar datos"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+    </body>
+</html>

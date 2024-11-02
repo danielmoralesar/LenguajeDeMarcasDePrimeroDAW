@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 02.11.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica de formularios - Ej 3.2</title>
+    </head>
+    <body>
+        <!-- Ej F1 Aprende Practicando: Ejercicio 3.1 -->
+        <h1 align="center">Ficha de datos</h1>
+        <form action="mailto:maurrekoetxeavivar@educa.madrid.org" method="post">
+            <p>Nombre:
+                <input type="text" name="nombre">
+            </p>
+            <p>Primer Apellido:
+                <input type="text" name="primerapellido">
+            </p>
+            <p>Segundo Apellido:
+                <input type="text" name="segundoapellido">
+            </p>
+            <p>Domicilio:
+                <input type="text" name="domicilio">
+            </p>
+            <p>Sexo:
+                Hombre:<input type="radio" name="sexo" value="Hombre">
+                Mujer:<input type="radio" name="sexo" value="Mujer">
+            </p>
+            <p>Película favorita:
+                Terminator:<input type="checkbox" name="pelicula" value="terminator">
+                El Barco Fantasma:<input type="checkbox" name="pelicula" value="barcofantasma">
+                Robocop:<input type="checkbox" name="pelicula" value="robocop">
+            </p>
+            <p>
+                <input type="submit" value="Enviar datos">
+                <input type="reset" value="Borrar datos">
+            </p>
+        </form>
+    </body>
+</html>

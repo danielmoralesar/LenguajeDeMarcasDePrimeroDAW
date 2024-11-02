@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 02.11.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Práctica de formularios - Ej 2</title>
+    </head>
+    <body>
+        <!-- Ej F1 Aprende Practicando: Ejercicio 2 -->
+         <h1>Cuestionario de Personal</h1>
+        <form action="mailto:maurrekoetxeavivar@educa.madrid.org" method="post">
+            <b>Nombre:</b><br>
+            <input type="text" name="usuario" size="35">
+            <p><b>Sexo:</b><br>
+                <input type="radio" name="sexo" value="Masculino">Masculino<br>
+                <input type="radio" name="sexo" value="Femenino">Femenino
+            </p>
+            <p><b>Número de miembros de la familia</b><br>
+                <input type="number" name="tamanofamilia">
+            </p>
+            <p><b>Idiomas que conoce:</b><br>
+                <input type="checkbox" name="idioma" value="Fr">Francés<br>
+                <input type="checkbox" name="idioma" value="En">Inglés
+            </p>
+            <p><b>Otros:</b><br>
+                <textarea name="comentarios" rows="6" cols="50">
+                </textarea>
+            </p>
+            <p>
+                <input type="submit" value="ENVIAR DATOS">
+                <input type="reset" value="VOLVER A COMENZAR">
+            </p>
+        </form>
+    </body>
+</html>

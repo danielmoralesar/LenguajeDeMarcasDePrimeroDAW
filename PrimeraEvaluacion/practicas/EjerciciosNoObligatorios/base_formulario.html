@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 21.10.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <!--nuestro primer formulario-->
+        <form   name="miformulario"
+                action="mailto:daniel.morales53@educa.madrid.org"
+                method="post"
+                enctype="multipart/form-data">
+            <label for="apellido">Apellido: <input type="text" id="apellido" name="apellido"></label>
+            <br><br>
+            <label for="apellido">Nombre:<input type="text" id="nombre" name="nombre"></label>
+            <br><br>
+            <label for="password">Contraseña:<input type="password" id="password" name="password"></label>
+            <br><br>
+            <label for="acuerdo"><input type="checkbox" id="acuerdo" name="acuerdo" checked>estoy de acuerdo</label>
+            <br><br>
+            <input type="file" name="archivo">
+            <!--El input radio debe tener más de una opción con el mismo name, pero distinto value-->
+            <label for="gender"><input type="radio" id="gender" name="gender" value="hombre">Hombre</label>
+            <label for="gender"><input type="radio" id="gender" name="gender" value="mujer">Mujer</label>
+            <label for="gender"><input type="radio" id="gender" name="gender" value="Otro">Otro</label>
+            <br><br>
+            <!--Botón enviar-->
+            <input type="submit" value="Enviar">
+            <!--reset regresa a los valores por defecto del formulario-->
+            <input type="reset" value="Restaurar">
+        </form>
+    </body>
+</html>
