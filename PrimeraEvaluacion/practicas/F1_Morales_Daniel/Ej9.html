@@ -10,21 +10,20 @@
     </head>
     <body>
         <!-- Ej F1 Aprende Practicando: Ejercicio 8 -->
-        <form action="" method="post">
+        <form action="" method="post" enctype="multipart/form-data">
             <fieldset>
                 <legend>Datos del formulario</legend>
                 <fieldset>
                     <legend>Información del usuario</legend>
-                    <p>
-                        <table>
-                            <tr>
-                                <td><p>Usuario<br>Clave</p></td>
-                                <td>
-                                    <input type="tel" name="usuario"><br>
-                                    <input type="password" name="contraseña">
-                                </td>
-                        </table>   
-                    </p>
+                    <table>
+                        <tr>
+                            <td><p>Usuario<br>Clave</p></td>
+                            <td>
+                                <input type="tel" name="usuario"><br>
+                                <input type="password" name="contraseña">
+                            </td>
+                        </tr>
+                    </table>
                 </fieldset>
                 <fieldset>
                     <legend>Datos personales</legend>
@@ -36,7 +35,7 @@
                                         <td><p>Hombre<br>Mujer</p></td>
                                         <td>
                                            <input type="radio" name="sexo" value="hombre"><br>
-                                           <input type="radio" name="" value="mujer">
+                                           <input type="radio" name="sexo" value="mujer">
                                         </td>
                                 </table>
                             </td>
