@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+    Autor: Daniel Morales
+    Fecha: 14.11.2024
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio de formularios - Ej9</title>
+    </head>
+    <body>
+        <!-- Ej F1 Aprende Practicando: Ejercicio 8 -->
+        <form action="" method="post">
+            <fieldset>
+                <legend>Datos del formulario</legend>
+                <fieldset>
+                    <legend>Información del usuario</legend>
+                    <p>
+                        <table>
+                            <tr>
+                                <td><p>Usuario<br>Clave</p></td>
+                                <td>
+                                    <input type="tel" name="usuario"><br>
+                                    <input type="password" name="contraseña">
+                                </td>
+                        </table>   
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <table>
+                        <tr>
+                            <td align="center">
+                                <table>
+                                    <tr>
+                                        <td><p>Hombre<br>Mujer</p></td>
+                                        <td>
+                                           <input type="radio" name="sexo" value="hombre"><br>
+                                           <input type="radio" name="" value="mujer">
+                                        </td>
+                                </table>
+                            </td>
+                            <td align="center">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Menos de 20 años<br>
+                                                De 20 a 34 años<br>
+                                                De 35 a 65<br>
+                                                Más de 65 años
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <input type="radio" name="edad" value="-20"><br>
+                                                <input type="radio" name="edad" value="20-34"><br>
+                                                <input type="radio" name="edad" value="35-65"><br>
+                                                <input type="radio" name="edad" value="+65">
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="center">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                Posee vivienda propia<br>
+                                                Trabaja<br>
+                                                Sabe jugar al mus
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <p>
+                                                <input type="checkbox" name="vivienda"><br>
+                                                <input type="checkbox" name="trabajo"><br>
+                                                <input type="checkbox" name="mus">
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="center">
+                                <textarea name="comentarios" cols="60" rows="5">Ponga aquí sus comentarios</textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="4">
+                                <table>
+                                    <tr align="center">
+                                        <td><p>País</p></td>
+                                        <td>
+                                            <select name="pais">
+                                                <optgroup label="Europa">
+                                                    <option value="españa">España</option>
+                                                    <option value="francia">Francia</option>
+                                                    <option value="alemania">Alemania</option>
+                                                    <option value="portugal">Portugal</option>
+                                                    <option value="italia">Italia</option>
+                                                    <option value="holanda">Holanda</option>
+                                                </optgroup>
+                                                <optgroup label="Asia">
+                                                    <option value="japon">Japón</option>
+                                                    <option value="china">China</option>
+                                                    <option value="india">India</option>
+                                                </optgroup>
+                                            </select>
+                                        </td>
+                                        <td><p>Color favorito</p></td>
+                                        <td>
+                                            <select name="color">
+                                                <option value="y">Amarillo</option>
+                                                <option value="r">Rojo</option>
+                                                <option value="b">Azul</option>
+                                                <option value="g">Verde</option>
+                                            </select>
+                                        </td>
+                                        <td><p>Aquí puedes subir una foto</p></td>
+                                        <td><input type="file" name="foto"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+                <a href="https://www.google.com/"><input type="button" value="Enviar"></a>
+                <input type="reset" value="Resetear">
+                <input type="button" value="Nada">
+            </fieldset>
+        </form>
+    </body>
+</html>
