@@ -25,8 +25,18 @@
                 background-color:azure;
                 text-transform: uppercase;
             }
-            *{ /*no es muy aconsejable usarlo*/
+            *{ /*no es muy aconsejable usarlo porque aplica a todo*/
                 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            table{
+                border: black solid;
+            }
+            table p {
+                background-color: black;
+                color: white;
+            }
+            td p p{
+                color: red;
             }
         </style>
         <title>Clase de CSS</title>
@@ -44,5 +54,19 @@
         <p class="preguntas">Pregunta 4</p>
         <p class="respuesta">Respuesta 4</p>
         <p id="conclusion">Conclusión</p>
+        <table>
+            <tr>
+                <td>
+                    <p>Tabla</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>Tabla
+                        <p>tabla</p>
+                    </p>
+                </td>
+            </tr>
+        </table>
     </body>
 </html>
