@@ -6,30 +6,11 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
-        <!-- CSS incrustado -->
-        <style>
-            /* Comentario CSS */
-            #collapse {
-                border-collapse: collapse;
-            }
-            #separate {
-                border-collapse: separate;
-            }
-            table {
-                border: red, dotted, 5px;
-                background-color: #FDD;
-                padding: 15px;
-            }
-            th, td{
-                border: solid, 10px, navy;
-                padding: 10px;
-                background-color: #FDD;
-            }
-        </style>
+        <link rel="stylesheet" href="estilo1.css">
         <title>Clase de CSS</title>
     </head>
     <body>
-        <!-- CSS en linea -->
+        <!-- Ejemplo de tablas con collapse-->
         <table id="collapse">
             <tr>
                 <th>Cabecera 1</th>
@@ -65,5 +46,43 @@
                 <td>fila 2 - Celda 3</td>
             </tr>
         </table>
+        <br> <br>
+        <!-- Ejemplo de listas con estilo del punto de listas-->
+        <ul id="empy">
+            <li>huevos</li>
+            <li>patatas</li>
+            <li>aceite</li>
+        </ul>
+        <ul id="fullfiled">
+            <li>huevos</li>
+            <li>patatas</li>
+            <li>aceite</li>
+        </ul>
+        <ul id="decimal">
+            <li>huevos</li>
+            <li>patatas</li>
+            <li>aceite</li>
+        </ul>
+        <br> <br>
+        <!-- Ejemplo de pseudoelementos-->
+        <p>
+            Este párrafo de texto tiene definido un estilo para la primera
+            letra para que parezca una capitular caída. El tamaño es del
+            250%, con color marrón y fondo color salmón
+        </p>
+        <br>
+        <p>
+            Este es el primer párrafo del texto sobre el que hemos definido
+            un estilo para la primera línea mediante un pseudo-elemento.
+        </p>
+        <p>
+            Este es el segundo párrafo <br>del texto sobre el que hemos
+            definido un estilo para la primera línea mediante un pseudoelemento.
+        </p>
+        <br> <br>
+        <!-- Ejemplo de pseudoclases -->
+        <p><a href="http://www.google.com">Google</a></p>
+        <p><a href="http://www.amazon.com">Amazon</a></p>
+        <p><a href="http://www.yahoo.es">Yahoo</a></p>
     </body>
 </html>

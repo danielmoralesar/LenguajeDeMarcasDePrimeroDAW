@@ -1,0 +1,58 @@
+#collapse {
+    border-collapse: collapse;
+}
+#separate {
+    border-collapse: separate;
+}
+table {
+    border: red, dotted, 5px;
+    background-color: #FDD;
+    padding: 15px;
+}
+th, td{
+    border: solid, 10px, navy;
+    padding: 10px;
+    background-color: #FDD;
+}
+#empy {
+    list-style-type: none;
+}
+#fullfiled {
+    list-style-type: disc;
+}
+#decimal {
+    list-style-type: decimal;
+}
+body { 
+    font-family: Arial; 
+}
+p { 
+    font-size: 12pt;
+    line-height: 12pt;
+    color: red; 
+}
+p:first-letter { 
+    font-size: 250%;
+    font-weight: bold;
+    color: maroon;
+    background: salmon;
+    float: left; 
+}
+p { color: red; }
+p:first-line { color: blue; }
+a {
+    font-size: 40px;
+}
+a:link {
+    color:#00FF00;
+}
+a:visited{
+    color:#0000FF;
+}
+a:hover{
+    color: #FF0000;
+    text-decoration: none;
+}
+a:active{
+    background-color: black;
+}
